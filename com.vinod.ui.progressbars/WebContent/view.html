@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+
+<script type="text/javascript" src="js/jquery.progressbar.min.js"></script>
+<script type="text/javascript" src="js/controller.js"></script>
+
+</head>
+<body>
+
+	<div id="dialogMsg" title="Progress bars Demo">
+		<div id="container" class="container">
+			<progress id="progress1" class="progressbar" value="0" max="100"></progress>
+			<span id="progress1_Count" class="percentage"></span>
+			<progress id="progress2" class="progressbar" value="0" max="100"></progress>
+			<span id="progress2_Count" class="percentage"></span>
+			<progress id="progress3" class="progressbar" value="0" max="100"></progress>
+			<span id="progress3_Count" class="percentage"></span> <select
+				id="selectBar">
+				<option id="option_progress1">#progress1</option>
+				<option id="option_progress2">#progress2</option>
+				<option id="option_progress3">#progress3</option>
+			</select>
+			 <input id="decButton25" type="button" value=" -25 " /> 
+			<input id="decButton10" type="button" value=" -10 " /> 
+			<input id="incButton10" type="button" value=" +10 " /> 
+			<input id="incButton25" type="button" value=" +25 " />
+		</div>
+	</div>
+</body>
+</html>
